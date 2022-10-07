@@ -2,6 +2,8 @@
 
 A simple network manager class with URL Session to get, post, put, and delete data on the server in swift language.
 
+## How to use NetworkManager.swift
+
 Create NetworkManager.swift class instance in your ViewControler.swift class. 
 
 ```bash
