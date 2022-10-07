@@ -10,7 +10,7 @@ Create NetworkManager.swift class instance in your ViewControler.swift class.
   let networkManager = NetworkManager()
 ```
 
-Create your URL request and call NetworkManager request method with your URL request.
+Create your URL request and call request method with your URL request.
 ```bash
   do {
       let request = try Router.all.requestURL()
@@ -28,7 +28,7 @@ Create your URL request and call NetworkManager request method with your URL req
             }
        }        
     } catch {
-            print("Errors: \(error)")
+        print("Error: \(error)")
     }
 ```
 
