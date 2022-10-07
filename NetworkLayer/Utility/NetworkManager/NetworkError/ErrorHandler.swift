@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum NetworkErrorMapper {
+enum ErrorHandler {
     case mapNetworkError(_ statusCode: Int)
     case handleNetworkError(_ error: Error)
 

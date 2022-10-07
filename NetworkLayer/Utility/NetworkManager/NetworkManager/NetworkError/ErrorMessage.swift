@@ -19,5 +19,5 @@ enum ErrorMessage: String, Error {
     case forbidden = "Request is refused by server"
     case encodingFailed = "Parameter encoding failed"
     case serverNotFound = "Server not found the request url"
-    case unreachable = "Please check your network connection."
+    case unreachable = "Please check your network connection"
 }
