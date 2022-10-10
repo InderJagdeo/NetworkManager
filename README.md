@@ -32,7 +32,3 @@ Create your URL request and call request method with your URL request.
         print("Error: \(error)")
     }
 ```
-
-## Support
-
-For support, please email at inderdhiman701@gmail.com
